@@ -4,33 +4,20 @@
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockSmallSorterTeleport" />
       <UnlockedByGroups>
-        <GroupSubtype>13</GroupSubtype>
-        <GroupSubtype>TeleUnlock</GroupSubtype>
+         <GroupSubtype>13</GroupSubtype> <!-- Make RadioAntenna to unlock -->
+         <GroupSubtype>25</GroupSubtype> <!-- Make Collector to unlock -->
       </UnlockedByGroups>
     </ResearchBlock>
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockMediumSorterTeleport" />
       <UnlockedByGroups>
-        <GroupSubtype>13</GroupSubtype>
-        <GroupSubtype>TeleUnlock</GroupSubtype>
+         <GroupSubtype>13</GroupSubtype> <!-- Make RadioAntenna to unlock -->
+         <GroupSubtype>25</GroupSubtype> <!-- Make Collector to unlock -->
       </UnlockedByGroups>
     </ResearchBlock>
   </ResearchBlocks>
-  <ResearchGroups>
-    <ResearchGroup xsi:type="ResearchGroup">
-      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="TeleUnlock" />
-      <Members>
-        <BlockId Type="MyObjectBuilder_Collector" Subtype="Collector" />
-        <BlockId Type="MyObjectBuilder_Collector" Subtype="CollectorSmall" />
-        <BlockId Type="MyObjectBuilder_ShipConnector" Subtype="Connector" />
-        <BlockId Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorMedium" />
-        <BlockId Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
-        <BlockId Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
-        <BlockId Type="MyObjectBuilder_ConveyorSorter" Subtype="SmallBlockConveyorSorter" />
-      </Members>
-    </ResearchGroup>
-  </ResearchGroups>
-  <CubeBlocks>
+
+<CubeBlocks>
 	
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
       <Id>
